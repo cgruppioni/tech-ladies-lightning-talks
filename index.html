@@ -26,7 +26,7 @@
 				max-width: 50% !important;
 				max-height: 50% !important;
 			}
-			.salary-slide {
+			.flex {
 				display: flex;
 				align-items: center;
 				justify-content: center;
@@ -38,6 +38,12 @@
 			}
 			.cold-message {
 				text-align: right;
+			}
+			.google-results {
+				width: 525px;
+			}
+			.width-50-percent{
+				width: 50%;
 			}
 		</style>
 	</head>
@@ -57,7 +63,7 @@
 				</section>
 				<section>
 					<h2>Salary/Equity</h2>
-					<div class="salary-slide">
+					<div class="flex">
 						<img src="img/beyonce-wage-gap.png" class="beyonce-1" alt="Beyonce wage gap" />
 						<img src="img/rihanna.gif" class="rihanna" alt="Rihanna gif" />
 					</div>
@@ -70,7 +76,8 @@
 					<h2>Getting an Interview</h2>
 				</section>
 				<section>
-					<h2>LinkedIn</h2>
+					<h2>LinkedIn and something about using your network building it w/e.</h2>
+					<hidden>Talk about building your networking here</hidden>
 				</section>
 				<section>
 					<h2>How to use 1st degree connections</h2>
@@ -82,7 +89,7 @@
 					<h2>Get introducded to someone who works at a company that you're interested in.</h2>
 				</section>
 				<section>
-					<img src="img/li-company-search-1.png" />
+					<img src="img/li-company-search-1.png" class="width-50-percent" />
 				</section>
 				<section>
 					<h2>Cold Messaging People</h2>
@@ -94,7 +101,7 @@
 					<img src="img/twitter-message.png" />
 				</section>
 				<section>
-					<h2>Building your LinkedIn Network</h2>
+					<h2>Title for other things</h2>
 				</section>
 				<section>
 					<h2>Meetups</h2>
@@ -134,8 +141,10 @@
 				</section>
 				<section>
 					<h2>Open Source Work</h2>
-					<img src="img/mailchimp-opensource-png.png" />
-					<img src="img/mailchimp-readme.png" />
+					<div class="flex">
+						<img src="img/mailchimp-opensource-png.png" class="width-50-percent" />
+						<img src="img/mailchimp-readme.png" class="width-50-percent" />
+					</div>
 				</section>
 				<section>
 					<h2>Public API</h2>
@@ -143,8 +152,10 @@
 				</section>
 				<section>
 					<h2>Glassdoor</h2>
-					<img src="img/glassdoor-logo.png" alt="glassdoor logo" />
-					<img src="img/glassdoor-2.png" />
+					<div class="flex">
+						<img src="img/glassdoor-logo.jpg" alt="glassdoor logo" />
+						<img src="img/glassdoor-2.png" class="google-results" />
+					</div>
 				</section>
 				<section>
 					<h2>Applying to jobs that you feel unqualified for</h2>
@@ -163,6 +174,7 @@
 				</section>
 				<section>
 					<h2>Do you have any hesitations about me as a candidate?</h2>
+				</section>
 				<section>
 					<h2>Your Takeaway</h2>
 					<img src="beyonce-bossy.gif" />
@@ -196,7 +208,7 @@
 			// - https://github.com/hakimel/reveal.js#configuration
 			// - https://github.com/hakimel/reveal.js#dependencies
 			Reveal.initialize({
-				autoSlide: 60000,
+				// autoSlide: 60000,
 				dependencies: [
 					{ src: 'plugin/markdown/marked.js' },
 					{ src: 'plugin/markdown/markdown.js' },
