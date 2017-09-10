@@ -42,8 +42,16 @@
 			.google-results {
 				width: 525px;
 			}
-			.width-50-percent{
-				width: 50%;
+			.resize{
+				zoom: 35%;
+			}
+			.donations {
+				zoom: 35%;
+				flex-direction: column;
+				padding-right: 20%;
+			}
+			.border {
+				border: 1px darkgray solid;
 			}
 		</style>
 	</head>
@@ -89,7 +97,7 @@
 					<h2>Get introducded to someone who works at a company that you're interested in.</h2>
 				</section>
 				<section>
-					<img src="img/li-company-search-1.png" class="width-50-percent" />
+					<img src="img/li-company-search-1.png" class="resize" />
 				</section>
 				<section>
 					<h2>Cold Messaging People</h2>
@@ -142,8 +150,8 @@
 				<section>
 					<h2>Open Source Work</h2>
 					<div class="flex">
-						<img src="img/mailchimp-opensource-png.png" class="width-50-percent" />
-						<img src="img/mailchimp-readme.png" class="width-50-percent" />
+						<img src="img/mailchimp-opensource-png.png" class="resize" />
+						<img src="img/mailchimp-readme.png" class="resize" />
 					</div>
 				</section>
 				<section>
@@ -159,8 +167,10 @@
 				</section>
 				<section>
 					<h2>Applying to jobs that you feel unqualified for</h2>
-					<img src="img/google-job-listing-1.png" />
-					<img src="img/google-job-listing-2.png" />
+					<div class="flex">
+						<img src="img/google-job-listing-1.png" class="resize" />
+						<img src="img/google-job-listing-2.png" class="resize" />
+					</div>
 				</section>
 				<section>
 					<h2>Interview</h2>
@@ -176,14 +186,18 @@
 					<h2>Do you have any hesitations about me as a candidate?</h2>
 				</section>
 				<section>
-					<h2>Your Takeaway</h2>
+					<h2>What I want you to take from this</h2>
 					<img src="img/beyonce-bossy.gif" />
 				</section>
 				<section>
 					<h2>Continue to be engaged and build your community.</h2>
-					<img src="img/blackgirlscode-donation.png" />
-					<img src="img/gdi-donation.png" />
-					<img src="img/upcoming-meetups.png" />
+						<div class="flex">
+							<div class="flex donations">
+								<img src="img/blackgirlscode-donation.png" />
+								<img src="img/gdi-donation.png" />
+							</div>
+						<img src="img/upcoming-meetups.png" class="resize" />
+					</div>
 				</section>
 				<section>
 					<h2>Casey Gruppioni</h2>
@@ -192,7 +206,7 @@
 						<li><a>https://www.linkedin.com/in/caseygruppioni/</a></li>
 						<li>Find me in the Girl Develop It, She Geeks Out, Women Who Code and Boston Ruby Slack channels.</li>
 					</ul>
-					<img src="img/sgo-nov-event.png" />
+					<img src="img/sgo-nov-event.png" class="border" />
 				</section>
 			</div>
 			<footer>
