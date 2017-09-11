@@ -1,3 +1,3 @@
-# Write/Speak/Code 2017 Lightning Talk
+# Casey Gruppioni Boston Tech Ladies 9/11 Event
 
-> Help, I need a README!
+# How to strategize your job search
