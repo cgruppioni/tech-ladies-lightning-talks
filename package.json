@@ -6,7 +6,7 @@
   "subdomain": "revealjs",
   "scripts": {
     "test": "grunt jshint",
-    "start": ""
+    "start": "npm start"
   },
   "main": "js/reveal.js",
   "author": {
