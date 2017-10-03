@@ -4,6 +4,10 @@
   "description": "Autoadvancing lightning talk slides for a Tech Ladies event",
   "homepage": "http://anything.codes/write-speak-code-lightning-talk",
   "subdomain": "revealjs",
+  "scripts": {
+    "test": "grunt jshint",
+    "start": ""
+  },
   "main": "js/reveal.js",
   "author": {
     "name": "Casey Gruppioni",
