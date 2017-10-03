@@ -5,10 +5,6 @@
   "homepage": "http://anything.codes/write-speak-code-lightning-talk",
   "subdomain": "revealjs",
   "main": "js/reveal.js",
-  "scripts": {
-    "postinstall": "grunt uglify",
-    "start": "node server.js"
-  },
   "author": {
     "name": "Casey Gruppioni",
     "email": "cgruppioni@gmail.com",
