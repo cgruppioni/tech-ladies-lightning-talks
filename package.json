@@ -5,8 +5,8 @@
   "homepage": "http://anything.codes/write-speak-code-lightning-talk",
   "subdomain": "revealjs",
   "scripts": {
-    "test": "grunt jshint",
-    "start": "npm start"
+    "start": "grunt serve",
+    "build": "grunt"
   },
   "main": "js/reveal.js",
   "author": {
